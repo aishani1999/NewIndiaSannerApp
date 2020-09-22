@@ -23,32 +23,37 @@
 
     <ImageButton
         android:id="@+id/bt_image"
-        android:layout_width="51dp"
-        android:layout_height="64dp"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
         android:onClick="onhooseFile"
         android:src="@mipmap/ic_launcher" />
 
     <Button
         android:id="@+id/bt_gray"
-        android:layout_width="63dp"
-        android:layout_height="64dp"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
         android:onClick="grayView"
-        android:text="GREY-SCALE" />
+        android:text="GREY-SCALE"
+        android:textSize="7dp"/>
 
     <Button
         android:id="@+id/bt_bw"
-        android:layout_width="77dp"
-        android:layout_height="67dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
         android:onClick="bwView"
-        android:text="Black and White" />
+        android:text="Black and White"
+        android:textSize="7dp"/>
 
     <Button
         android:id="@+id/bt_magic"
-        android:layout_width="81dp"
-        android:layout_height="69dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
         android:onClick="magicView"
-        android:text="magic-colour" />
+        android:text="magic-
+        colour"
+        android:textSize="7dp"/>
 
 
 </LinearLayout>
+
 </LinearLayout>
